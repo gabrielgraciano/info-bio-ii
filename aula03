@@ -1,0 +1,41 @@
+ls /homepub/pub
+ls /homepub/pub/biomed #lista os arquvis na pasta biomed
+cat /homepub/pub/biomed/gpcr.fas #lista o que tem dentro de um arquivo
+
+#Ctrl C cancela
+#Ctrl D termina
+#Ctrl Z suspende
+
+less /homepub/pub/biomed/gpcr.fas #mostra menos informação, mais organizado
+q #sai do less
+
+#.vcf - arquivo de variantes, comparação para apontar diferenças
+
+ls -l #mostra tamanho
+ls -lh #mostra tamanho human readable
+
+head -5 /homepub/pub/biomed/grande.vcf #mostra até a 5º linha
+
+file /homepub/[...] #mostra qual o tipo de arquivo
+
+wc /homepub/[...] # conta letras, palavras
+
+#meu código 0_9285449114_R01C02
+
+cat /homepub/pub/biomed/gpcr2.fas >> glixo #irá dar append
+
+cut #filtra por coluna
+
+sed - string editor
+grep -i gabriel /homepub/pub/biomed/machado.txt #pega o codigo
+
+#nos interessa o 'CHROM' e 'ID', 'REF', 'ALT'
+1/1 - AA - Alternativo e alternativo
+0/1 - GA - Referencia e Alternativo
+0/0 - 
+
+
+grep "#CHROM" /homepub/pub/biomed/grande.vcf #pega apenas a linha chrom
+
+#minha linha é 626
+
